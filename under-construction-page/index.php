@@ -50,6 +50,7 @@
 				<p>&nbsp;</p>
 				<h3>Under new ownership!</h3>
 				<p>&nbsp;</p>
+				<p>New site coming very soon. Please visit our <a class="reg-link" href="http://www.muddybuckcoffee.com">old site</a> in the meantime.</p>
 		</div>
 	</div>
 </section><!-- #intro -->
