@@ -1,0 +1,145 @@
+//#siteHeader {
+//background-color: //rgba(255,255,255,0.3);
+//}
+//.site-header {
+//  margin: 0;
+//  padding: 2vw;
+//}
+// keep tel links consistent with rest of text
+a[href^="tel:"] {
+  color: #000;
+  text-decoration: none;
+}
+a[href^="tel:"]:hover {
+  color: #000;
+  text-decoration: none;
+}
+// homepage tel exception
+#collectionDesc a[href^="tel:"] {
+  color: #fff;
+  text-decoration: none;
+}
+#collectionDesc a[href^="tel:"]:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#block-yui_3_17_2_1_1528822525165_10460 {
+  background: url(http://www.muddybuckcafe.com/_squarespace-files/roll-coffee-04.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+#block-f5515ea085edb0cddfbd {
+  background: url(http://www.muddybuckcafe.com/_squarespace-files/drink-01.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+#block-f00c62b72b04ff55028d {
+  background: url(http://www.muddybuckcafe.com/_squarespace-files/drink-background-01.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+#block-yui_3_17_2_1_1528820189034_39405 {
+  background: url(http://www.muddybuckcafe.com/_squarespace-files/fruit-bowl-02.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+#block-yui_3_17_2_1_1528820189034_19548 {
+  background: url(http://www.muddybuckcafe.com/_squarespace-files/sandwich-background.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+// menu modifications
+#block-yui_3_17_2_1_1527873177935_7993 .menu-section-title {
+  font-family: 'Henderson-Slab-Basic', Georgia, serif;
+}
+// menu page background
+#collection-5b021f2788251b9376536e3f div.main-content-inner-wrapper,
+// sip page background
+#collection-5b021f2f575d1f8e6e2d6eaa div.main-content-inner-wrapper {
+  background: url(http://www.muddybuckcafe.com/_squarespace-files/chalkboard-background-02.jpg) no-repeat center center fixed;
+  color: #fff;
+}
+#block-yui_3_17_2_1_1530045542417_9689 h2 ,
+#block-yui_3_17_2_1_1530045542417_9689 h3 {
+  color: #fff;
+}
+
+// map overlay
+#block-yui_3_17_2_1_1531107707289_19983 .overlay {
+   background: transparent; 
+   z-index: 10;
+   position: relative; 
+   width: 100%;
+   height: 408px; /* iframe height */
+   top: 408px;  /* iframe height */
+   margin-top: -408px;  /* iframe height */
+}
+#collection-5b021f47aa4a99a865f074aa div.main-content-inner-wrapper,
+#collection-5b021f35f950b7644aeb844f div.main-content-inner-wrapper,
+//homepage
+#collection-5b11968c758d461a7cfeac32 div.main-content-inner-wrapper,
+//shop
+#collection-5b326778758d464d27d07b40 div.main-content-inner-wrapper,
+body#cart div.main-content-inner-wrapper {
+  background: url(http://www.muddybuckcafe.com/_squarespace-files/background-01.jpg) no-repeat center center;
+  background-size: cover;
+}
+footer.site-footer,
+footer.site-footer h2,
+footer.site-footer a {
+  color: #fff;
+}
+
+
+
+// back to top
+.sf-back-to-top {
+    background-color: rgba(216,214,193,0.8);
+    transition: all 0.3s ease;
+    border: 1px solid #fff;
+    color: white; 
+    display: none;
+    z-index: 999;
+    position: fixed;
+    right: 50%;
+    margin-right: -25px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.sf-back-to-top:hover {
+    background-color: rgba(216,214,193,1);
+}
+a.sf-back-to-top {
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.6;
+    padding-left: 2px;
+    padding-top: 10px;    
+}
+
+a.sf-back-to-top .arrow:before {
+    content: "\e02d";
+    font-family: 'squarespace-ui-font';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    content: "\e02d";
+    text-align: center;
+    display: block;
+    vertical-align: middle;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    cursor: pointer;
+    margin-left: -4px;
+}

@@ -1,0 +1,50 @@
+// fixed header on scroll
+header.Header {
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+	background-color: rgba(235,127,177,0.8);
+	background: url(http://www.muddybuckcafe.com/_squarespace-files/tan-distressed-background.png) no-repeat center center;
+	background-size: cover;
+}
+// phone number on primary nav
+nav.Header-nav--primary > div > a.Header-nav-item:last-of-type {
+	border: 1px solid #313131;
+	padding: 10px;
+}
+nav.Header-nav--primary > div > a.Header-nav-item:last-of-type:hover {
+	border: 1px solid #313131;
+	padding: 10px;
+	background-color: rgba(0,0,0,0.3);
+	color: #fff;
+}
+section#home-about-us {
+	background-color: rgba(235,127,177,0.8);
+	background: url(http://www.muddybuckcafe.com/_squarespace-files/distressed-bkg-floral-03.jpg) no-repeat center center;
+	background-size: cover;	
+}
+section#home-find-us {
+	background-color: rgba(235,127,177,0.8);
+	background: url(http://www.muddybuckcafe.com/_squarespace-files/map-bkg-01.jpg) no-repeat center center;
+	background-size: cover;	
+}
+main.Main--products-list,
+main.Main--products-item{
+	background-color: rgba(235,127,177,0.8);
+	background: url(http://www.muddybuckcafe.com/_squarespace-files/store-floral-background.jpg) no-repeat center center fixed;
+	background-size: cover;	
+}
+// menu general background
+.Main {
+	background-color: rgba(235,127,177,0.8);
+	background: url(http://www.muddybuckcafe.com/_squarespace-files/chalkboard-background-02.jpg) no-repeat center center fixed;
+	background-size: cover;	
+	color: rgba(255,255,255,0.9);	
+}
+// breakfast bites menu background
+#block-yui_3_17_2_1_1531279635808_7043 {
+	background-color: rgba(235,127,177,0.8);
+	background: url(http://www.muddybuckcafe.com/_squarespace-files/breakfast-bites-background.jpg) no-repeat center center;
+	background-size: cover;		
+}
