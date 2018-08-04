@@ -64,3 +64,27 @@ footer.Footer {
 	text-decoration: none;
  	border: none;
 }
+// social media in footer spacing
+.social-icons-size-large.social-icon-alignment-left .sqs-svg-icon--wrapper {
+  margin-right: 20px;
+}
+// footer links
+.Footer-blocks .sqs-block-html p a {
+  color: inherit;
+  border: none;
+}
+.Footer-blocks .sqs-block-html p a:hover {
+  color: inherit;
+  border: none;
+  text-decoration: underline;
+}
+// menu section
+div.sqs-block-menu {
+  margin-bottom: 20px;
+}
+.menu-block .menu-section {
+  margin-top: 0;
+}
+.menu-block .menu-style-classic .menu-section-title {
+  font-size: 1em;
+}
